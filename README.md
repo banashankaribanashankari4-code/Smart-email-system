@@ -73,3 +73,152 @@ Refine proposed solution:
 Based on feedback and research, I will improve my approach by making the system more practical, accurate, and user-friendly. I may adjust features or simplify the design if needed.
 Explore feasibility:
 I will check the technical feasibility by selecting suitable tools (like Python, ML models, Django/Flask) and testing whether I can build a working prototype within the given time.
+
+# day 2
+Problem Decomposition
+1. Problem in One Sentence
+   Users struggle to manage and respond to large volumes of emails efficiently due to lack of
+   intelligent automation for classification and reply generation.
+2. Break into Sub-Problems
+•	Sub-problem 1: Identifying and separating important emails from spam and low-priority messages 
+•	Sub-problem 2: Understanding the context and intent of each email 
+•	Sub-problem 3: Generating accurate and meaningful replies automatically 
+•	Sub-problem 4: Reducing time spent on repetitive email tasks 
+•	Sub-problem 5: Ensuring reliability and avoiding incorrect automated responses 
+3. Identify Stakeholders
+•	Students 
+•	Working professionals 
+•	Businesses / organizations 
+•	Customer support teams 
+4. Define Impact per Stakeholder
+•	Students: May miss important academic emails or deadlines 
+•	Working professionals: Delayed responses can affect productivity and communication 
+•	Businesses / organizations: Poor email handling can impact operations and client relationships 
+•	Customer support teams: High email volume increases workload and response time 
+Expected Output
+1. Structured Sub-Problems:
+Clearly divided issues like classification, understanding content, reply generation, time management, and reliability.
+2. Stakeholder Mapping:
+Different user groups identified with specific impacts, showing how the problem affects each of them differently.
+
+Root Cause Analysis
+1. Symptoms vs Problems
+Symptoms (what we see):
+•	Users feel overwhelmed by too many emails 
+•	Delayed or missed replies 
+•	Important emails get ignored 
+•	Time wasted on reading and sorting emails 
+Actual Problems (underlying issues):
+•	No intelligent system to understand and prioritize emails 
+•	Lack of automation in reply generation 
+•	Inefficient manual email handling process 
+2. Apply 5 Whys
+Problem: Users delay or miss important emails
+•	Why 1: Because they receive too many emails daily 
+•	Why 2: Because emails are not properly filtered or prioritized 
+•	Why 3: Because current systems only use basic filtering (not intelligent understanding) 
+•	Why 4: Because there is limited use of advanced AI for context-based classification 
+•	Why 5: Because existing solutions are either incomplete, complex, or not widely accessible 
+3. Cause–Effect Chain
+•	Large volume of emails
+•	Lack of intelligent classification
+•	Difficulty in identifying important emails
+•	Manual effort increases
+•	Delays or missed responses
+•	Reduced productivity and communication efficiency
+4. Systemic vs Situational Causes
+Systemic Causes (deep/root level):
+•	Lack of advanced AI integration in basic email systems 
+•	Poor understanding of email context and intent 
+•	Limited accessibility of smart automation tools 
+Situational Causes (surface level):
+•	High number of daily emails 
+•	Presence of spam and promotional content 
+•	Time constraints of users 
+Expected Output
+1. Root Cause Breakdown:
+The core issue is not just email overload, but the absence of intelligent automation for understanding, classifying, and replying to emails.
+2. Clear Differentiation:
+Symptoms (overload, delays) are visible effects, while root causes (lack of smart systems, limited automation) are the actual problems that need to be solved.
+
+Scenario Mapping
+1. Scenario Descriptions
+Scenario 1: Handling an Important Work Email
+Flow:
+1.	User receives an email (e.g., request for report). 
+2.	System reads and analyzes the email content. 
+3.	Email is classified as Important / Work. 
+4.	System identifies intent (request or task). 
+5.	Generates a suitable reply (e.g., “I will send the report shortly”). 
+6.	User reviews and sends (or auto-send option). 
+Scenario 2: Handling Spam or Promotional Email
+Flow:
+1.	User receives promotional or spam email. 
+2.	System analyzes keywords and patterns. 
+3.	Email is classified as Spam / Promotion. 
+4.	System either: 
+o	Moves it to spam folder OR 
+o	Ignores / marks as low priority 
+5.	No reply is generated. 
+Scenario 3: Handling General Inquiry Email
+Flow:
+1.	User receives a general query (e.g., asking for information). 
+2.	System processes the email content. 
+3.	Classifies it as General / Inquiry. 
+4.	Generates a polite and informative reply. 
+5.	User can edit or directly send the reply.
+2. Context Variations
+•	Emails written in different tones (formal / informal) 
+•	Emails with incomplete or unclear information 
+•	Multiple requests in a single email 
+•	Different languages or mixed language content 
+•	Urgent vs non-urgent emails 
+3. Edge Cases
+•	Email content is too short (e.g., “Hi”) → difficult to classify 
+•	Confusing or ambiguous emails → wrong classification 
+•	Spam emails that look like important messages 
+•	Auto-generated replies may not match complex queries 
+•	Network or system failure during processing 
+Expected Output
+1. Scenario Descriptions:
+Three main scenarios covering important emails, spam handling, and general inquiries.
+2. Context Variations:
+Different real-world conditions and edge cases that may affect system performance and accuracy.
+
+Assumption Refinement
+1. Initial Assumptions
+•	Most emails follow common patterns (requests, updates, promotions). 
+•	Emails can be accurately classified using ML/NLP techniques. 
+•	Users are comfortable using auto-generated replies. 
+•	A small dataset is enough to build a working prototype. 
+•	All emails are in a clear and understandable format. 
+2. Logical Validation
+•	Common patterns exist → Valid, but not for all emails 
+•	ML/NLP classification → Valid, but accuracy depends on data quality 
+•	User acceptance of auto-replies → Partially valid, depends on trust and context 
+•	Small dataset → Valid only for prototype, not for real-world performance 
+•	Clear email format → Not always valid, emails can be messy or unclear 
+3. Remove / Modify Weak Assumptions
+•	 “All emails are clear and structured” → Removed 
+•	 “Auto-replies will always be accepted by users” → Modified (users may need review option) 
+4. Add New Assumptions
+•	Users will prefer a review/edit option before sending replies 
+•	Accuracy will improve with better training data and continuous learning 
+•	System performance depends on quality of preprocessing and model selection 
+•	Simple solutions are more useful for students and small-scale users 
+Final Refined Assumptions
+•	Emails often follow patterns, but exceptions must be handled 
+•	ML/NLP can classify emails with reasonable accuracy if trained well 
+•	Users may accept auto-replies if they are relevant and editable 
+•	A small dataset is enough for prototype development, but not for full deployment 
+•	System accuracy and usefulness depend on data quality and model improvement 
+•	Providing user control (edit/review) increases trust and usability 
+Expected Output
+Refined Assumptions:
+A realistic and improved set of assumptions that better reflect real-world conditions and system limitations.
+
+
+
+
+
+
