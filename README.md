@@ -512,3 +512,7 @@ By combining:
 - Intelligent reply generation
 
 the system reduces manual effort, improves productivity, and provides a smarter email communication experience.
+
+# Documents
+
+- [Read PDF](./paper3.pdf)
