@@ -516,3 +516,5 @@ the system reduces manual effort, improves productivity, and provides a smarter 
 # Documents
 
 - [Read PDF](./paper3.pdf)
+- [Read PDF](./paper2.pdf)
+- [Read PDF](./paper1.pdf)
