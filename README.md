@@ -1,4 +1,4 @@
-````markdown
+
 <p align="center">
   <img src="https://www.erafoundationindia.org/images/logo.svg" width="220"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
