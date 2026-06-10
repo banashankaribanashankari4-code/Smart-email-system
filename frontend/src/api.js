@@ -1,6 +1,6 @@
 import axios from 'axios';
  
-const BASE = 'http://localhost:8000/api';
+const BASE = 'https://smart-email-system.onrender.com/api';
  
 export const analyzeEmail = (emailData, language = 'English') =>
   axios.post(`${BASE}/email/analyze`, { ...emailData, language }).then(r => r.data);
