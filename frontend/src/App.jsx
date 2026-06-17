@@ -292,9 +292,7 @@ export default function App() {
             margin:'0 0 6px', color: T.text, fontFamily: T.font,
             fontWeight: 700, fontSize: 24, letterSpacing:'-0.5px'
           }}>Smart Email Assistant</h1>
-          <p style={{color: T.textMuted, fontSize: 13, marginBottom: 32}}>
-            AI-powered inbox, beautifully managed
-          </p>
+          
           <button onClick={() => login()} style={{
             display:'flex', alignItems:'center', gap: 12, background:'white',
             border:`2px solid ${T.border}`, borderRadius: 12,
