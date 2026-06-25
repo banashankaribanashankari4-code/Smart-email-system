@@ -598,11 +598,23 @@ The project demonstrates how AI-powered automation can support efficient, safe, 
 # 18. References
 
 
-[1] Google Research, “Smart Reply: Automated Response Suggestion for Email,” 2017.
+# References (Literature Review Papers)
 
-[2] A. Kumar and R. Singh, “Email Classification using Machine Learning Techniques,” International Journal of Computer Applications, vol. 176, no. 22, pp. 15–21, 2020.
+[1] A. Kannan, K. Kurach, S. Ravi, T. Kaufmann, A. Tomkins, B. Miklos, G. Corrado, L. Lukacs, M. Ganea, P. Young and V. Ramavajjala,
+“Smart Reply: Automated Response Suggestion for Email,”
+Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), pp. 955–964, 2016.
+Link: https://research.google/pubs/smart-reply-automated-response-suggestion-for-email/
 
-[3] Ashish Vaswani et al., “Attention Is All You Need,” Advances in Neural Information Processing Systems (NeurIPS), 2017.
+[2] A. Vaswani et al.,
+“Attention Is All You Need,”
+Advances in Neural Information Processing Systems (NeurIPS), 2017.
+Link: https://arxiv.org/abs/1706.03762
+
+[3] B. Towle and K. Zhou,
+“End-to-End Autoregressive Retrieval via Bootstrapping for Smart Reply Systems,”
+arXiv, 2023.
+Link: https://arxiv.org/abs/2310.18956
+
 
 
 ---
