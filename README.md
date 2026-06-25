@@ -134,72 +134,14 @@ The project focuses on:
 
 # 2. Literature Review
 
-## 2.1 Research Paper 1
 
-| Attribute | Details |
-|---|---|
-| Title | Smart Reply: Automated Response Suggestion for Email |
-| Authors | Google Research Team |
-| Year | 2017 |
-| Methodology | Deep Learning-based sequence prediction |
-| Technologies Used | Neural Networks, NLP |
-| Results | Improved quick response generation |
+The research paper titled *“Smart Reply: Automated Response Suggestion for Email”* proposed by the Google Research Team focused on generating automated email responses using deep learning techniques. The study used sequence prediction methodology based on neural networks and Natural Language Processing (NLP) to suggest quick and relevant replies to user emails. The proposed system significantly improved response speed and reduced manual typing effort, making email communication more efficient. The major advantages of this approach include faster email replying, reduced user effort, and ease of use. However, the generated replies were often short and generic, lacked deep contextual understanding, and still required users to manually select the final response.[1]
 
-### Advantages
-- Faster email replies
-- Reduces typing effort
-- Easy to use
 
-### Limitations
-- Replies are short and generic
-- Limited deep context understanding
-- Requires manual user selection
+The research paper titled *“Email Classification using Machine Learning Techniques”* presented a machine learning-based approach for organizing and categorizing emails automatically. The methodology adopted supervised learning techniques and utilized algorithms such as Naive Bayes, Support Vector Machine (SVM), and Natural Language Processing (NLP) to classify emails into different categories. The study demonstrated improved email categorization accuracy and better spam detection mechanisms. The advantages of this approach include enhanced email organization, efficient spam filtering, and support for multiple email categories. However, the system did not provide intelligent reply generation, its performance depended heavily on training data quality, and it faced challenges in handling ambiguous email content.[2]
 
----
 
-## 2.2 Research Paper 2
-
-| Attribute | Details |
-|---|---|
-| Title | Email Classification using Machine Learning Techniques |
-| Authors | Various Researchers |
-| Year | 2020 |
-| Methodology | Supervised Machine Learning |
-| Technologies Used | Naive Bayes, SVM, NLP |
-| Results | Improved email categorization accuracy |
-
-### Advantages
-- Better email organization
-- Improved spam filtering
-- Supports multiple categories
-
-### Limitations
-- No intelligent reply generation
-- Performance depends heavily on training data
-- Difficulty handling ambiguous emails
-
----
-
-## 2.3 Research Paper 3
-
-| Attribute | Details |
-|---|---|
-| Title | Context-Aware Conversational AI using Large Language Models |
-| Authors | AI Research Community |
-| Year | 2023 |
-| Methodology | Transformer-based LLM Architecture |
-| Technologies Used | GPT, Transformers, NLP |
-| Results | Human-like text generation |
-
-### Advantages
-- Better context understanding
-- Human-like responses
-- Improved personalization
-
-### Limitations
-- High computational cost
-- Risk of hallucinated responses
-- Requires large datasets
+The research paper titled *“Context-Aware Conversational AI using Large Language Models”* explored the use of transformer-based Large Language Model (LLM) architectures for generating human-like conversational responses. The methodology employed modern transformer networks and NLP techniques to understand context and generate meaningful text outputs. The results showed improved contextual understanding, better personalization, and more natural human-like communication. The key advantages included improved context awareness, personalized responses, and advanced conversational capabilities. However, the system required high computational resources, had a possibility of hallucinated responses, and depended on large-scale datasets for effective performance.[3]
 
 ---
 
