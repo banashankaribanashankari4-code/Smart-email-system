@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3Ht9WSXBdz3Ce1AUjQBF2_1JAEohHpHv2tA&s" height="80" style="background:white; padding:8px; margin:0 16px;" />
   <img src="https://www.erafoundationindia.org/images/logo.svg" width="220"/>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://comedkares.org/wp-content/uploads/2023/04/Comedkares-Logo-EPS.png" width="220"/>
@@ -596,14 +597,13 @@ The project demonstrates how AI-powered automation can support efficient, safe, 
 
 # 18. References
 
-1. Google Research Team, "Smart Reply: Automated Response Suggestion for Email," 2017.
-2. A. Kumar and R. Singh, "Email Classification using Machine Learning Techniques," 2020.
-3. Ashish Vaswani et al., "Attention Is All You Need," NIPS, 2017.
-4. J. Smith et al., "Context-Aware Conversational AI using Large Language Models," IEEE Access, 2023.
-5. T. Mikolov et al., "Recurrent Neural Network based Language Model," Interspeech, 2011.
-6. Google LLC, "Gmail API Documentation," Google Developers, 2024.
-7. Google DeepMind, "Gemini: A Family of Highly Capable Multimodal Models," 2024.
-8. Bird, S., Loper, E., "NLTK: The Natural Language Toolkit," ACL, 2004.
+
+[1] Google Research, “Smart Reply: Automated Response Suggestion for Email,” 2017.
+
+[2] A. Kumar and R. Singh, “Email Classification using Machine Learning Techniques,” International Journal of Computer Applications, vol. 176, no. 22, pp. 15–21, 2020.
+
+[3] Ashish Vaswani et al., “Attention Is All You Need,” Advances in Neural Information Processing Systems (NeurIPS), 2017.
+
 
 ---
 
@@ -625,3 +625,5 @@ We sincerely thank:
 - Research Community
 
 for their support and guidance.
+
+
